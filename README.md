@@ -1,6 +1,6 @@
 # QLoRA Fine-Tuning with PEFT
 
-Parameter-efficient fine-tuning of a 4-bit quantized language model using LoRA and Hugging Face PEFT.
+This technique makes it feasible to adapt large language models to specific tasks without access to enterprise-grade hardware.
 
 ## What is QLoRA?
 
@@ -10,6 +10,8 @@ QLoRA (Quantized Low-Rank Adaptation) combines two techniques:
 - **LoRA**: instead of updating all weights, two small low-rank matrices are injected into attention layers. Only those adapters are trained — the base model stays frozen.
 
 The result: fine-tuning a multi-billion parameter model on a single consumer GPU.
+
+You can find the code here: [lab-qlora-tuning-peft.ipynb](https://github.com/marcosfsousa/lab-qlora-tuning-peft/blob/main/lab-qlora-tuning-peft.ipynb)
 
 ## Experiment
 
