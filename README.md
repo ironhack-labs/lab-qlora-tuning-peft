@@ -1,6 +1,6 @@
 # QLoRA Fine-Tuning with PEFT
 
-Fine-tuning a quantized language model using LoRA adapters — without enterprise hardware.
+Fine-tuning a quantized language model using LoRA adapters — This technique makes it feasible to adapt large language models to specific tasks without access to enterprise-grade hardware
 
 **Notebook:** [lab-qlora-tuning-peft.ipynb](lab-qlora-tuning-peft.ipynb)
 
