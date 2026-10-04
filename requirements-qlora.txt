@@ -1,0 +1,10 @@
+transformers==4.45.2
+datasets==2.21.0
+accelerate==0.34.2
+peft==0.13.2
+trl==0.9.6
+bitsandbytes==0.44.1
+huggingface_hub==0.26.2
+sentencepiece==0.2.0
+tokenizers==0.20.1
+matplotlib>=3.8,<4
